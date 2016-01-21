@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5705500A1C50A27B0069FFD8 /* DeviceManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 570550091C50A27B0069FFD8 /* DeviceManger.m */; };
+		5705500C1C50B5780069FFD8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5705500B1C50B5780069FFD8 /* StoreKit.framework */; };
 		736AE49E1C4FF495008C7472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 736AE49D1C4FF495008C7472 /* main.m */; };
 		736AE4A11C4FF495008C7472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 736AE4A01C4FF495008C7472 /* AppDelegate.m */; };
 		736AE4A41C4FF495008C7472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 736AE4A31C4FF495008C7472 /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570550081C50A27B0069FFD8 /* DeviceManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceManger.h; sourceTree = "<group>"; };
+		570550091C50A27B0069FFD8 /* DeviceManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceManger.m; sourceTree = "<group>"; };
+		5705500B1C50B5780069FFD8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		736AE4991C4FF495008C7472 /* StrangeSkills.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrangeSkills.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736AE49D1C4FF495008C7472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		736AE49F1C4FF495008C7472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5705500C1C50B5780069FFD8 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +68,8 @@
 				736AE4A01C4FF495008C7472 /* AppDelegate.m */,
 				736AE4A21C4FF495008C7472 /* ViewController.h */,
 				736AE4A31C4FF495008C7472 /* ViewController.m */,
+				570550081C50A27B0069FFD8 /* DeviceManger.h */,
+				570550091C50A27B0069FFD8 /* DeviceManger.m */,
 				736AE4A51C4FF495008C7472 /* Main.storyboard */,
 				736AE4A81C4FF495008C7472 /* Assets.xcassets */,
 				736AE4AA1C4FF495008C7472 /* LaunchScreen.storyboard */,
@@ -74,6 +82,7 @@
 		736AE49C1C4FF495008C7472 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5705500B1C50B5780069FFD8 /* StoreKit.framework */,
 				736AE49D1C4FF495008C7472 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -152,6 +161,7 @@
 				736AE4A41C4FF495008C7472 /* ViewController.m in Sources */,
 				736AE4A11C4FF495008C7472 /* AppDelegate.m in Sources */,
 				736AE49E1C4FF495008C7472 /* main.m in Sources */,
+				5705500A1C50A27B0069FFD8 /* DeviceManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +272,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StrangeSkills/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FishNews.StrangeSkills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07b10271-7a99-4f64-b977-52a13a0c645a";
 			};
 			name = Debug;
 		};
@@ -273,9 +285,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StrangeSkills/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FishNews.StrangeSkills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "07b10271-7a99-4f64-b977-52a13a0c645a";
 			};
 			name = Release;
 		};
@@ -298,6 +312,7 @@
 				736AE4B21C4FF495008C7472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

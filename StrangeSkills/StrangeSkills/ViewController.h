@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/SKStoreProductViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SKStoreProductViewControllerDelegate>
 
 
 @end
