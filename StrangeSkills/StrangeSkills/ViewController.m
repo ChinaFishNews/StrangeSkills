@@ -4,7 +4,8 @@
 //
 //  Created by 新闻 on 16/1/21.
 //  Copyright © 2016年 新闻. All rights reserved.
-//
+// 下载链接:https://github.com/ChinaFishNews/StrangeSkills.git
+
 
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
@@ -72,6 +73,7 @@ const NSString *const  KAppID = @"1056909503";
     
     [DeviceManger currentIPAddress];
 }
+
 
 #pragma mark  - OpenAppStoreDelegate
 -(void)openAppStore:(UIViewController *)controller{
