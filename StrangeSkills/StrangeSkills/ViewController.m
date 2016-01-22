@@ -30,14 +30,14 @@ const NSString *const  KAppID = @"1056909503";
 #pragma mark - Event Response
 
 - (IBAction)buttonEvent:(id)sender {
-    
-//    [DeviceManger goToDownloadOutApp];
  
-//    [DeviceManger goToDownloadInApp];
+//    [DeviceManger goToDownloadPageOutApp];
+ 
+//    [DeviceManger goToDownloadPageInApp];
     
-//    [DeviceManger goToEvaluate];
+//    [DeviceManger goToEvaluatePage];
     
-//    [DeviceManger goToSearchDependskeywords];
+//    [DeviceManger goToSearchPageDependskeywords];
 
 //    [DeviceManger goToCategoryPage];
     
