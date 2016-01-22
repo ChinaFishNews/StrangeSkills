@@ -30,7 +30,7 @@
     //通过链接生成二维码时需使用https://itunes.apple.com/us/app/id%@?mt=8
     
 //    NSString *urlString = [NSString stringWithFormat:
-//                           @"itms-apps://itunes.apple.com/us/app/id%@?mt=8",
+//                           @"itms-apps://itunes.apple.com/cn/app/id%@?mt=8",
 //                           KAppID];
     
     NSString *urlString = [NSString stringWithFormat:

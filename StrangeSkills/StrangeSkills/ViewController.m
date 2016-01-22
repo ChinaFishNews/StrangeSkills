@@ -71,7 +71,7 @@ const NSString *const  KAppID = @"1056909503";
     
 //    [DeviceManger language];
     
-//    [DeviceManger currentIPAddress];
+    [DeviceManger currentIPAddress];
 }
 
 

@@ -17,7 +17,7 @@ iOS开发的一些奇巧淫技,
 一： 使用原生xcodebuild、xcrun 打开终端 cd到当前项目,使用如下两条命令即可。(cocoapods项目暂不成功)
 
 xcodebuild -project 项目名.xcodeproj -target 项目名 -configuration Release
-xcrun -sdk iphoneos -v PackageApplication ./build/Release-iphoneos/项目名.app -o ~/Desktop/项目名.ipa
+<br>xcrun -sdk iphoneos -v PackageApplication ./build/Release-iphoneos/项目名.app -o ~/Desktop/项目名.ipa
 
 
 二：使用xctool进行自动打包，是FaceBook开源的一个命令行工具，可使用brew安装（安装命令：sudo brew install xctool）
