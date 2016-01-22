@@ -15,6 +15,7 @@
 		736AE4A71C4FF495008C7472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736AE4A51C4FF495008C7472 /* Main.storyboard */; };
 		736AE4A91C4FF495008C7472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736AE4A81C4FF495008C7472 /* Assets.xcassets */; };
 		736AE4AC1C4FF495008C7472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736AE4AA1C4FF495008C7472 /* LaunchScreen.storyboard */; };
+		736AE4B51C512580008C7472 /* TopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 736AE4B41C512580008C7472 /* TopWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		736AE4A81C4FF495008C7472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736AE4AB1C4FF495008C7472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736AE4AD1C4FF495008C7472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736AE4B31C512580008C7472 /* TopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopWindow.h; sourceTree = "<group>"; };
+		736AE4B41C512580008C7472 /* TopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				736AE4A31C4FF495008C7472 /* ViewController.m */,
 				570550081C50A27B0069FFD8 /* DeviceManger.h */,
 				570550091C50A27B0069FFD8 /* DeviceManger.m */,
+				736AE4B31C512580008C7472 /* TopWindow.h */,
+				736AE4B41C512580008C7472 /* TopWindow.m */,
 				736AE4A51C4FF495008C7472 /* Main.storyboard */,
 				736AE4A81C4FF495008C7472 /* Assets.xcassets */,
 				736AE4AA1C4FF495008C7472 /* LaunchScreen.storyboard */,
@@ -161,6 +166,7 @@
 				736AE4A41C4FF495008C7472 /* ViewController.m in Sources */,
 				736AE4A11C4FF495008C7472 /* AppDelegate.m in Sources */,
 				736AE49E1C4FF495008C7472 /* main.m in Sources */,
+				736AE4B51C512580008C7472 /* TopWindow.m in Sources */,
 				5705500A1C50A27B0069FFD8 /* DeviceManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +282,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FishNews.StrangeSkills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "07b10271-7a99-4f64-b977-52a13a0c645a";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -289,7 +295,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FishNews.StrangeSkills;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "07b10271-7a99-4f64-b977-52a13a0c645a";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

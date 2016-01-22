@@ -14,6 +14,7 @@ const NSString *const  KAppID = @"1056909503";
 
 @interface ViewController () <OpenAppStoreDelegate>
 
+
 @end
 
 @implementation ViewController
@@ -22,9 +23,10 @@ const NSString *const  KAppID = @"1056909503";
     [super viewDidLoad];
     
     [DeviceManger shareInstance].delegate = self;
+    
 }
 
-#pragma mark
+#pragma mark - Event Response
 
 - (IBAction)buttonEvent:(id)sender {
     
@@ -44,8 +46,31 @@ const NSString *const  KAppID = @"1056909503";
     
 //    [DeviceManger goToSystemSettingPage];
     
-    [DeviceManger goToWifiPage];
+//    [DeviceManger goToWifiPage];
+
+//    [DeviceManger hideNavBarHairlineImageView:self];
     
+//    [DeviceManger isHotSpotConnected];
+    
+//    [DeviceManger isAllowedNotification];
+    
+//    [DeviceManger hideExtraCell:[UITableView new]];
+    
+//    [DeviceManger changeAccessoryViewColor:[UITableView new]];
+    
+//    [DeviceManger scrollToTop];
+    
+//    [DeviceManger checkAppStoreVersion];
+    
+//    [DeviceManger isJailbroken];
+   
+//    [DeviceManger totalDiskSpace];
+    
+//    [DeviceManger freeDiskSpace];
+    
+//    [DeviceManger language];
+    
+    [DeviceManger currentIPAddress];
 }
 
 #pragma mark  - OpenAppStoreDelegate
