@@ -6,7 +6,7 @@ iOS开发的一些奇巧淫技,
 
 ##<br>如何查看真机沙盒文件?
 
-一：安装iFunBox货IExployer
+一：安装iFunBox或IExployer
 
 二：在xcode的上部导航栏里，选择window -> Devices,找到目标app![](Images/1.png),双击选中项目![](Images/2.png),这样我们只能看到沙盒的目录结构,看不到实体文件。然后点击Download Container![](Images/3.png),下载后保存到桌面，右键显示包内容即可。
 
