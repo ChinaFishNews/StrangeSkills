@@ -72,7 +72,7 @@ self.imageView.tintColor = [UIColor redColor];
 
 ##<br>如何放大图片使之不失真且不产生锯齿
 
-在Asset Catalog的Attribtues Pane中设置Single Vector为SingleVector<br>![](https://github.com/ChinaFishNews/StrangeSkills/blob/master/Images/8.png)
+在Asset Catalog的Attribtues Pane中设置Single(前提是图片必须是矢量图) Vector为SingleVector<br>![](https://github.com/ChinaFishNews/StrangeSkills/blob/master/Images/8.png)
 
 
 ##<br>如何在拉伸图片的时候使之不变形
