@@ -20,16 +20,16 @@ xcodebuild -project 项目名.xcodeproj -target 项目名 -configuration Release
 <br>xcrun -sdk iphoneos -v PackageApplication ./build/Release-iphoneos/项目名.app -o ~/Desktop/项目名.ipa(-o前为.app文件路径，-o后为生成的.ipa路径)
 ###如果使用cocoapods:
 xcodebuild -workspace Test.xcworkspace -scheme Test -configuration Release
-xcrun -sdk iphoneos -v PackageApplication 项目名.app路径 -o ~/Desktop/Demo.ipa
+<br>xcrun -sdk iphoneos -v PackageApplication 项目名.app路径 -o ~/Desktop/Demo.ipa
 
 
 二：使用xctool进行自动打包，是FaceBook开源的一个命令行工具，可使用brew安装（安装命令：sudo brew install xctool）
 ###如果项目没有使用cocoapods:
 xctool -scheme Demo archive -archivePath "Demo/“(会生成.xcarchive文件)
-xcrun -sdk iphoneos -v PackageApplication ./Demo.xcarchive/Products/Applications/Demo.app -o ~/Desktop/Demo.ipa
+<br>xcrun -sdk iphoneos -v PackageApplication ./Demo.xcarchive/Products/Applications/Demo.app -o ~/Desktop/Demo.ipa
 ###如果使用cocoapods:
 xctool -workspace Demo.xcworkspace -scheme Demo archive -archivePath "Demo” 
-xcrun -sdk iphoneos -v PackageApplication ./Demo.xcarchive/Products/Applications/Demo.app -o ~/Desktop/Demo.ipa
+<br>xcrun -sdk iphoneos -v PackageApplication ./Demo.xcarchive/Products/Applications/Demo.app -o ~/Desktop/Demo.ipa
 
 ##<br>Xcode历史版本下载地址<br>
 https://developer.apple.com/downloads/
