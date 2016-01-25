@@ -14,7 +14,7 @@ iOS开发的一些奇巧淫技,
 
 ##<br>如何使用命令行进行打包?
 
-一： 使用原生xcodebuild、xcrun 打开终端 cd到当前项目,使用如下两条命令即可。(cocoapods项目暂不成功)
+一： 使用原生xcodebuild、xcrun 打开终端 cd到当前项目,使用如下两条命令即可。(cocoapods项目把项目名.xcodeproj换成项目名.xcworkspace即可)
 
 xcodebuild -project 项目名.xcodeproj -target 项目名 -configuration Release
 <br>xcrun -sdk iphoneos -v PackageApplication ./build/Release-iphoneos/项目名.app -o ~/Desktop/项目名.ipa
