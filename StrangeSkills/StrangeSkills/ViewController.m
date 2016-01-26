@@ -13,6 +13,7 @@
 
 const NSString *const  KAppID = @"1056909503";
 
+
 @interface ViewController () <OpenAppStoreDelegate>
 
 
@@ -31,7 +32,7 @@ const NSString *const  KAppID = @"1056909503";
 
 - (IBAction)buttonEvent:(id)sender {
  
-//    [DeviceManger goToDownloadPageOutApp];
+    [DeviceManger goToDownloadPageOutApp];
  
 //    [DeviceManger goToDownloadPageInApp];
     
@@ -71,7 +72,7 @@ const NSString *const  KAppID = @"1056909503";
     
 //    [DeviceManger language];
     
-    [DeviceManger currentIPAddress];
+//    [DeviceManger currentIPAddress];
 }
 
 

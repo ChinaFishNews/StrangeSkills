@@ -2,6 +2,7 @@
 iOS开发的一些奇巧淫技,
 "奇巧淫技"并非是一些稀奇古怪的技术要点，也不是什么所谓的黑科学，只是一些平时可能会用到但有些又并不是很容易查询得到的小tips.
 <br>下载链接:https://github.com/ChinaFishNews/StrangeSkills.git
+<br>博客地址:http://chinafishnews.gitcafe.io
 
 
 ##<br>如何查看真机沙盒文件?
