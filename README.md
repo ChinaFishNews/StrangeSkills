@@ -93,6 +93,8 @@ self.imageView.tintColor = [UIColor redColor];
 <br>此时应该这样设置 Background →0ther →0pacity
 
 ##[UIScreen mainScreen].bounds获取屏幕大小不对的问题
+\#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width<br>
+\#define iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242,2208),[[UIScreen mainScreen] currentMode].size) : NO)<br>
 在标准模式下<br>
 6+：<br>
 [[UIScreen mainScreen] currentMode].size为{1242，2208}<br>
