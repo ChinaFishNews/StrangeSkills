@@ -91,3 +91,20 @@ self.imageView.tintColor = [UIColor redColor];
 ##<br>Storyboard中如何正确设置控件透明度
 在直接设置alpha的情况下，如果上面有文字的话会随着透明度的变大而变得越来越不清楚。
 <br>此时应该这样设置 Background →0ther →0pacity
+
+##[UIScreen mainScreen].bounds获取屏幕大小不对的问题
+在标准模式下<br>
+6+：<br>
+[[UIScreen mainScreen] currentMode].size为{1242，2208}<br>
+[UIScreen mainScreen].bounds.size为{414，736}<br>
+6:<br>
+[[UIScreen mainScreen] currentMode].size为{750，1334}<br>
+[UIScreen mainScreen].bounds.size为{375，667}<br>
+
+放大模式下(设置->显示与亮度->显示模式) <br>
+6+:<br>
+[[UIScreen mainScreen] currentMode].size为{1125,2001}<br>
+[UIScreen mainScreen].bounds.size为{375,667}<br>
+6:<br>
+[[UIScreen mainScreen] currentMode].size为{640,1136}<br>
+[UIScreen mainScreen].bounds.size为{320,568}
