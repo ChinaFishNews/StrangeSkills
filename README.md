@@ -111,3 +111,11 @@ self.imageView.tintColor = [UIColor redColor];
 6:<br>
 [[UIScreen mainScreen] currentMode].size为{640,1136}<br>
 [UIScreen mainScreen].bounds.size为{320,568}
+
+##Mac模式下如何将视频生成Gif文件
+一：使用GifBrewery直接将视频转为gif文件(安装GifBreweryw密码:www.macx.cn)
+
+二：安装ffmpeg ( brew install ffmpeg)使用ffmpeg使视频转为多张图片<br>
+（ ffmpeg -i  news.mov -r 10 -f image2 文件夹名/%05d.png）
+<br>然后使用PicGIF (将多张图片生成gif文件)
+

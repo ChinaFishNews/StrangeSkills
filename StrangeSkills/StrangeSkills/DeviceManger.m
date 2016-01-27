@@ -91,7 +91,7 @@
      ...
      */
     NSString *urlString = [NSString stringWithFormat:
-                           @"https://itunes.apple.com/cn/genre/ios-jiao-yu/id6017?mt=8"];
+                           @"https://itunes.apple.com/cn/genre/ios-you-xi/id6014?mt=8"];
     
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
     
@@ -215,7 +215,7 @@ bool hide;
 
 +(void)changeAccessoryViewColor:(UITableView *)tabeView{
     
-    tabeView.tintColor = [UIColor redColor];
+    tabeView.tintColor = [UIColor redColor]; //acessoryview
 }
 
 +(void)scrollToTop;{
